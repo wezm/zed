@@ -68,11 +68,8 @@ thiserror.workspace = true
 rayon.workspace = true
 
 [target.'cfg(not(windows))'.dependencies]
-crashes.workspace = true
-crash-handler.workspace = true
 fork.workspace = true
 libc.workspace = true
-minidumper.workspace = true
 
 [dev-dependencies]
 action_log.workspace = true

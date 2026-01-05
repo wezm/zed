@@ -36,11 +36,6 @@ fn main() -> anyhow::Result<()> {
         return Ok(());
     }
 
-    if let Some(socket) = &cli.crash_handler {
-        crashes::crash_server(socket.as_path());
-        return Ok(());
-    }
-
     if cli.printenv {
         util::shell_env::print_env();
         return Ok(());
