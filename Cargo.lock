@@ -10172,7 +10172,6 @@ dependencies = [
  "tokio",
  "ui",
  "util",
- "webrtc-sys",
  "zed-scap",
 ]
 
